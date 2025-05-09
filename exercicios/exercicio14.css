@@ -1,15 +1,14 @@
 body {
     font-family: sans-serif;
-    background: #f4f4f4;
-    padding: 20px;
     text-align: center;
+    background: #fdf6e3;
   }
   
   main {
-    background: white;
     padding: 20px;
-    border-radius: 10px;
-    max-width: 400px;
+    background: white;
     margin: auto;
+    max-width: 400px;
+    border-radius: 10px;
   }
   

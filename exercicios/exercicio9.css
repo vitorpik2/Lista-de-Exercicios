@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .container {
+    text-align: center;
+  }
+  .luz {
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background: #ccc;
+  }
+  #vermelho.acesa { background: red; }
+  #amarelo.acesa { background: yellow; }
+  #verde.acesa { background: green; }
+  

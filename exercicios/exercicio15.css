@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background: #fff3cd;
+  }
+  
+  main {
+    background: white;
+    padding: 20px;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  

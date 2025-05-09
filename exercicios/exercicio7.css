@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #e3f2fd;
+    background-color: #fffde7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,8 +9,8 @@ body {
   
   .container {
     background: white;
-    padding: 25px;
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 10px;
     text-align: center;
   }
   
