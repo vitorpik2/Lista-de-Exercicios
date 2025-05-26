@@ -26,3 +26,6 @@ function calcular() {
     resultado.textContent = `Resultado: ${res}`;
   }
   
+  function retornar() {
+  window.history.back()
+}

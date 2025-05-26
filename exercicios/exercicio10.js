@@ -16,3 +16,6 @@ function converter() {
     `;
   }
   
+  function retornar() {
+  window.history.back()
+}

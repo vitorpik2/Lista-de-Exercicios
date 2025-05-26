@@ -9,3 +9,6 @@ function gerarSenha() {
     document.getElementById('senha').textContent = senha;
   }
   
+  function retornar() {
+  window.history.back()
+}

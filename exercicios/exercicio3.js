@@ -20,4 +20,7 @@ function calcularIMC() {
   
     resultado.textContent = `IMC: ${imc.toFixed(2)} - ${classificacao}`;
   }
-  
+
+  function retornar() {
+  window.history.back()
+}

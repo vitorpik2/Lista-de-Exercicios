@@ -13,3 +13,6 @@ function sacar() {
     });
   }
   
+  function retornar() {
+  window.history.back()
+}

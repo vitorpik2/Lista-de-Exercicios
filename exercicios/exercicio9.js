@@ -3,3 +3,6 @@ function acender(cor) {
     document.getElementById(cor).classList.add('acesa');
   }
   
+  function retornar() {
+  window.history.back()
+}

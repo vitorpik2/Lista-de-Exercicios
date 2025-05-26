@@ -9,3 +9,6 @@ function sortear() {
     document.getElementById('resultado').textContent = `Número sorteado: ${sorteado}`;
   }
   
+  function retornar() {
+  window.history.back()
+}

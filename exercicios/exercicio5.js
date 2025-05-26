@@ -15,3 +15,6 @@ function verificarIdade() {
     resultado.textContent = `Idade: ${idade} anos - ${status}`;
   }
   
+  function retornar() {
+  window.history.back()
+}

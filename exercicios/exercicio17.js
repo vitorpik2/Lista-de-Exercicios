@@ -10,3 +10,6 @@ function verificarPrimo() {
     document.getElementById('resultado').textContent = ehPrimo ? 'É primo!' : 'Não é primo.';
   }
   
+  function retornar() {
+  window.history.back()
+}

@@ -18,3 +18,6 @@ function calcularMedia() {
     resultado.textContent = `Média: ${media.toFixed(2)} - ${status}`;
   }
   
+  function retornar() {
+  window.history.back()
+}

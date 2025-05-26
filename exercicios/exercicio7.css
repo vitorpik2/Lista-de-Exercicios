@@ -1,16 +1,100 @@
 body {
-    font-family: sans-serif;
-    background-color: #fffde7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .container {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-  }
-  
+  font-family: sans-serif;
+  background-color: #fffde7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+form,
+.output {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 600;
+  color: #34495e;
+}
+
+input,
+select,
+textarea {
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.output {
+  padding: 1rem;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul#lista-compras {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+ul#lista-compras li {
+  background-color: #d1f2eb;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul#lista-compras button {
+  background-color: #e74c3c;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}

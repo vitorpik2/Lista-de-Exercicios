@@ -15,3 +15,6 @@ function gerarTabuada() {
     }
   }
   
+  function retornar() {
+  window.history.back()
+}

@@ -30,3 +30,7 @@ function zerar() {
   segundos = 0;
   atualizar();
 }
+
+function retornar() {
+  window.history.back()
+}

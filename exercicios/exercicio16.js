@@ -5,3 +5,6 @@ function contar() {
     document.getElementById('resultado').innerHTML = `Palavras: ${palavras}<br>Letras: ${letras}`;
   }
   
+  function retornar() {
+  window.history.back()
+}

@@ -12,3 +12,7 @@ function adivinhar() {
     resultado.textContent = 'Tente um número menor.';
   }
 }
+
+function retornar() {
+  window.history.back()
+}

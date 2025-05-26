@@ -17,3 +17,7 @@ function mostrar() {
 
   document.getElementById('resultado').innerHTML = res;
 }
+
+function retornar() {
+  window.history.back()
+}

@@ -18,3 +18,6 @@ function validar() {
     resultado.textContent = 'Cadastro realizado com sucesso!';
   }
   
+  function retornar() {
+  window.history.back()
+}
