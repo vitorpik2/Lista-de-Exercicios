@@ -44,6 +44,5 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
   function acessarExercicio(id) {
-    window.location.href = `exercicios/exercicio${id}.html`;
-  }
-  
+  window.location.href = `exercicio${id}.html`;
+}

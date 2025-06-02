@@ -23,6 +23,6 @@ function contar() {
     resultado.textContent = contagem + "🏁";
   }
   
-  function retornar() {
+  function retornar() { 
   window.history.back()
 }

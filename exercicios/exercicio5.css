@@ -6,6 +6,10 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-image: url('../img/imageEx5.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   }
   
   .container {
